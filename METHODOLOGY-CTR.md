@@ -2,7 +2,7 @@
 The methodology that we used for the CTR estimation, is shown in the following figure.
 <img width="532" alt="metodo" src="https://user-images.githubusercontent.com/94172910/209103139-a995ffed-fa8e-43ed-8a92-85f2cec41de6.PNG">
 
-**For the LUNG SEGMENTATION TASK:**
+**FOR THE LUNG SEGMENTATION TASK:**
 
 Some modifications to the U-Net with VAE architecture from the official implementation of the work by Selvan et. al [1] have been done, to allow the output of the
 model to have a field of view wider of 128 pixels on each side with respect to the field of view of the input image, in order to handle clipped anatomy cases. The proposed method has been trained and validate on a total of 704 images from Montgomery and Shenzhen dataset.
@@ -12,8 +12,9 @@ During the training a batch size of 12 was used, with a learning rate of 10−4,
 
 <img width="817" alt="unet2_ (1)" src="https://user-images.githubusercontent.com/94172910/209103761-8d7a2fb4-4d96-4cb0-a8b8-96536c8e177e.PNG">
 
-The CTR is then calculated as the radio between the cardiac diameter and the thoracic diameter extracted from the lung masks and defined as follow:
+**FOR THE CTR CALCULATION:**
 
+The CTR is then calculated as the radio between the cardiac diameter and the thoracic diameter extracted from the lung masks and defined as follow:
 - cardiac diameter: searched above the vertex of the cardiophrenic angle of the right lung. It is defined as the maximum horizontal distance between the two lungs.
 
 - thoracic diameter: defined as the maximum distance between the rightmost and the leftmost point on the lung segmentation chosen on the same horizontal line.
