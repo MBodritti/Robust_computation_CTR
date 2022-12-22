@@ -1,5 +1,5 @@
 # CTR ESTIMATION: METHODOLOGY AND IMPLEMENTATION DETAILS
-The methodology that we used for the CTR estimation, is shown in the folling figure.
+The methodology that we used for the CTR estimation, is shown in the following figure.
 <img width="532" alt="metodo" src="https://user-images.githubusercontent.com/94172910/209103139-a995ffed-fa8e-43ed-8a92-85f2cec41de6.PNG">
 
 **For the LUNG SEGMENTATION TASK:**
