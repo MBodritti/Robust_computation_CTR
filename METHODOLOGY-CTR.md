@@ -12,7 +12,7 @@ During the training a batch size of 12 was used, with a learning rate of 10−4,
 
 <img width="817" alt="unet2_ (1)" src="https://user-images.githubusercontent.com/94172910/209103761-8d7a2fb4-4d96-4cb0-a8b8-96536c8e177e.PNG">
 
-The CTR is then calculated as the radio between the cardiac diameter and the thoracic diameter, defined as follow:
+The CTR is then calculated as the radio between the cardiac diameter and the thoracic diameter extracted from the lung masks and defined as follow:
 
 - cardiac diameter: searched above the vertex of the cardiophrenic angle of the right lung. It is defined as the maximum horizontal distance between the two lungs.
 
