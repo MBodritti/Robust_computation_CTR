@@ -1,5 +1,5 @@
-# METHODOLOGY AND IMPLEMENTATION DETAILS
-The methodology that we used for the RI_CTR estimation, is shown in the folling figure.
+# RI_CTR ESTIMATION: METHODOLOGY AND IMPLEMENTATION DETAILS
+The methodology that we used for the RI_CTR estimation, is shown in the following figure.
 <img width="395" alt="met2" src="https://user-images.githubusercontent.com/94172910/209112124-b8863e9d-e786-4862-9666-d6f47bf508d0.PNG">
 
 The lung segmentation model described in METHODOLOGY-CTR was modified to allow multi-label outputs. The already trained lung segmentation model was fine-tuned with heart segmentation masks from Wingspan dataset. 
